@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shoppingportal
+    url: jdbc:mysql://localhost:3306/bankingportal
     username: root
     password: root
   jpa:
@@ -9,4 +9,4 @@ spring:
     hibernate:
       ddl-auto: update
 server:
-  port: 1111
+  port: 5152
