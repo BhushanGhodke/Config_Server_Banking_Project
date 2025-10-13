@@ -1,8 +1,8 @@
 server:
-  port: 5151   
+  port: 5152  
 spring:
   application:
-    name: user-service
+    name: account-service
 
   datasource:
     driver-class-name: org.h2.Driver
